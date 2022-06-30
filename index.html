@@ -3,14 +3,61 @@
    <head>
      <meta charset="UTF-8">
      <title>My first website</title>
+     <style>
+      h1 {
+	  color:yellow;
+	  font-famiy:arial;
+         } 
+      body { font-family:arial;
+	     background-color:rgb(185,178,176);
+	   }
+
+      h2 { color:white;
+         }
+     </style>
    </head>
    <body>
+    <main>
      <h1>Odin  Recipes</h1>
+     <hr>
      <section> 
-	     <p>This is a link about recipe for <a href="recipes/noodles.html"> noodles</a>
-   
-    <p>Click to <a href="recipes/hamburger.html">view hamburger recipes</a>
-     </section>
+	     <p>Below are links to recipe for your favorite dishes:
+	     <ul>
+              <li><a href="recipes/noodles.html">Noodles</a></li>
+	      <li><a href="recipes/hamburger.html" >Hamburger</a></li>
+	     </ul> 
+	     </p> 
     
+     </section>
+     <br>
+     <h2>About</h2>
+     <section>
+      <p>In our world today a lot of people are too busy with work or other things to be thinking about what to cook at home. recognizing this, I decided to build this website with the intention of helping to atleast remedy this situation a bit.</p>
+    <br>
+    <figure>
+
+      <img src="https://www.gettyimages.com/detail/photo/worried-old-chef-in-the-kitchen-is-taking-a-break-royalty-free-image/1195018048" alt="confused cook">
+      <figcaption><i>without Recipe </i></figcaption>
+    </figure>
+      <br>
+      <p>So instead of running around your house wondering what to cook, you can just visit this site , click on the dish of your choice and read its recipe and ingredient to help guide you as you prepare your dish.</p>
+      <br>
+    <figure>
+
+      <img src="https://www.gettyimages.com/detail/photo/japanese-woman-chef-who-shows-a-smile-in-the-royalty-free-image/952723528" alt="Satisfied Cook">
+      <figcaption><i>With Recipe</i></figcaption>
+   </figure>
+     </section>
+     <br>
+     <h2>Let's hear you!</h2>
+     <section>
+	     <p>To receive personalized cooking tips and tricks from us then subscribe to our mailing list below:</p>
+
+	     <form>
+		<input type="text" id="mail" name="email" value="mail" placeholder="example@gmail.com" required> 
+               <input type="submit" name="subscribe" value="subscribe">
+	  </form>
+     </section>
+   </main>
    </body>
 </html>
