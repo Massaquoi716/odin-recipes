@@ -1,0 +1,44 @@
+body {
+    
+    background-color: #fca311;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.homepagediv {
+    width: 80%;
+    margin: auto;
+    background-color: #78290f;
+    color: #ffffff;
+    height: 80vh;
+    padding: 2rem;
+    border-radius: 10px;
+}
+ul, nav {
+    margin: 0;
+}
+
+.homepagediv h1 {
+    margin:  2rem auto;
+    text-align: center;
+    color: #fdc500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-block:0 ;
+}
+
+nav li {
+    text-align: center;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    padding: 10px 20px; /* Adjust button padding as needed */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    margin: 2rem auto;
+    max-width: 200px;
+    
+  }
