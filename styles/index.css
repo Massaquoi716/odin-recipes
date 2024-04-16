@@ -6,14 +6,18 @@ body {
 }
 
 .homepagediv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 80%;
     margin: auto;
     background-color: #78290f;
     color: #ffffff;
-    height: 80vh;
+    
     padding: 2rem;
     border-radius: 10px;
 }
+
 ul, nav {
     margin: 0;
 }
@@ -24,6 +28,12 @@ ul, nav {
     color: #fdc500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-block:0 ;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 nav li {
